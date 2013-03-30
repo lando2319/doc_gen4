@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= link_to "home", root_url %> || <%= link_to "Add a person", new_person_url %> || <%= link_to "Create an Invoice", new_invoice_url %><br>
 <%= yield %>
 
 </body>

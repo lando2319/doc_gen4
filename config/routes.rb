@@ -4,6 +4,7 @@ DocGen4::Application.routes.draw do
 
   get 'homepage/index' => 'Homepage#index', :as => 'homepage'
 
+## People
 #C
   get 'people/new' => 'People#new', :as => 'new_person'
   post 'people' => 'People#create', :as => 'people'
@@ -12,6 +13,28 @@ DocGen4::Application.routes.draw do
 #U
 
 #D
+
+## Invoices
+#C
+
+  get 'invoices/new' => 'Invoices#new', :as => 'new_invoice'
+  post 'invoices' => 'Invoices#create', :as => 'invoices'
+
+#R
+
+#U
+
+#D
+
+
+
+
+
+
+
+
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
