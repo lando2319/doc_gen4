@@ -1,4 +1,7 @@
 DocGen4::Application.routes.draw do
+
+  get 'homepage/index' => 'Homepage#index', :as => 'homepage'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
