@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  person: MyString
+  due_date: 2013-03-29
+  expense: MyString
+  exp_quantity: 1
+  notes: MyText
+
+two:
+  person: MyString
+  due_date: 2013-03-29
+  expense: MyString
+  exp_quantity: 1
+  notes: MyText
