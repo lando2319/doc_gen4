@@ -1,15 +1,18 @@
 class InvoicesController < ApplicationController
 
+
+
   def new
     @invoice = Invoice.new
   end
 
   def create
-    # @invoice = Invoice.new(params[:person])
+    @invoice = Invoice.new(params[:Invoice])
 
-    # respond_to do |format|
+
 
   end
 
+  belongs_to :person
 
 end

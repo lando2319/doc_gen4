@@ -1,4 +1,15 @@
 <%= form_for(@invoice) do |invoice| %>
+
+ <%= collection_select(:name, :person_id, Person.all, :id, :name) %>
+
 <%= invoice.label :expense %>
 <%= invoice.text_field :expense %>
+
+<%= invoice.label :expense %>
+<%= invoice.text_field :expense %>
+
+
+
+
+<%= invoice.submit %>
 <% end %>
