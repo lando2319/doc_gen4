@@ -1,7 +1,6 @@
 <%= form_for(@invoice) do |invoice| %>
 
- <!-- collection_select(:person_id, :person_id, Person.all, :id, :name)
- -->
+ <%= invoice.collection_select(:person_id, Person.all, :id, :name) %>
 
 
 <%= invoice.label :expense %>
