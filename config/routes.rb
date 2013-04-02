@@ -22,6 +22,9 @@ DocGen4::Application.routes.draw do
 
 #R
 
+  get "/invoices/:id" => "Invoices#show", :as => "invoice"
+
+
 #U
 
 #D
